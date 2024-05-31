@@ -37,7 +37,8 @@ const menu = [
     }
 ]
 
-const Header = () => {
+const Header = (props) => {
+    const{toggleModal} = props
     return (
         <div>
             <div className='header-top'>
@@ -67,7 +68,7 @@ const Header = () => {
 
                     </div>
                     <div className='h-btn'>
-                        <button className='btn'>Book A Table</button>
+                        <button onClick={toggleModal} className='btn'>Book A Table</button>
                     </div>
                 </div>
             </div>

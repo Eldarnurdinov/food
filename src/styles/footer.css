@@ -2,25 +2,20 @@
     background: #474747;
     margin-top: 120px;
 }
-
 .end {
     padding: 120px 0 0 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 135px;
-
-
     .end-icon {
         padding-bottom: 160px;
-
         .logo {
             margin-right: 100px;
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 0 0 43px;
-
             p {
                 width: 160px;
                 height: 30px;
@@ -30,8 +25,8 @@
                 font-style: italic;
             }
         }
-
         h5 {
+            width: 293px;
             font-family: "DM Sans" sans-serif;
             color: #ADB29E;
             font-weight: 400;
@@ -39,15 +34,12 @@
             line-height: 24px;
             font-size: 16px;
         }
-
         .icons {
             cursor: pointer;
             gap: 12px;
             display: flex;
             align-items: center;
             color: #fff;
-
-
             &>div {
                 width: 35px;
                 height: 35px;
@@ -59,44 +51,37 @@
                 text-align: center
             }
         }
-
     }
-
     .f-category {
         width: 330px;
         height: 352px;
         display: flex;
         gap: 120px;
-
         .qqq {
-            width: 61px;
-            height: 352px;
-
+            /* width: 61px;
+            height: 352px; */
             p {
                 font-weight: 700;
                 color: #fff;
                 margin-bottom: 40px;
             }
-
             ul {
+                cursor: pointer;
                 margin-bottom: 20px;
                 font-weight: 400;
                 color: #DBDFD0;
             }
-
         }
-
         .www {
-            width: 149px;
-            height: 352px;
-
+            /* width: 149px;
+            height: 352px; */
             p {
                 font-weight: 700;
                 color: #fff;
                 margin-bottom: 40px;
             }
-
             ul {
+                cursor: pointer;
                 margin-bottom: 20px;
                 font-weight: 400;
                 color: #DBDFD0;
@@ -105,6 +90,8 @@
     }
 
     .footer-img {
+        /* width: 194px;
+        height: 170px; */
         display: flex;
         gap: 15px;
         align-items: center;
@@ -126,8 +113,8 @@
 
 .rrr {
     padding-top: 30px;
-    width: 403px;
-    height: 419px;
+    /* width: 403px;
+    height: 419px; */
 
     p {
         font-weight: 700;
